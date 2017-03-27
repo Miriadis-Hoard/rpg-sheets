@@ -1,0 +1,502 @@
+<doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>D&D 5th Edition Character Sheet</title>
+</head>
+<body>
+
+  <form>
+    <fieldset>
+      <legend>Character Information</legend>
+      <div>
+        <label>Character Name</label>
+        <br>
+        <input type="text">
+      </div>
+      <div>
+        <label>Class</label>
+        <br>
+        <select>
+          <option>Barbarian</option>
+          <option>Bard</option>
+          <option>Cleric</option>
+          <option>Druid</option>
+          <option>Fighter</option>
+          <option>Monk</option>
+          <option>Paladin</option>
+          <option>Ranger</option>
+          <option>Rogue</option>
+          <option>Sorcerer</option>
+          <option>Warlock</option>
+          <option>Wizard</option>
+        </select>
+      </div>
+      <div>
+        <label>Level</label>
+        <br>
+        <input type="number" min="1" max="20">
+      </div>
+      <div>
+        <label>Background</label>
+        <br>
+        <input type="text">
+      </div>
+      <div>
+        <label>Player Name</label>
+        <br>
+        <input type="text">
+      </div>
+      <div>
+        <label>Race</label>
+        <br>
+        <select>
+          <option>Dragonborn</option>
+          <option>Dwarf</option>
+          <option>Elf</option>
+          <option>Gnome</option>
+          <option>Half-Elf</option>
+          <option>Half-Orc</option>
+          <option>Halfling</option>
+          <option>Human</option>
+          <option>Tiefling</option>
+        </select>
+      </div>
+      <div>
+        <label>Alignment</label>
+        <br>
+        <select>
+          <optgroup label="Lawful">
+          <option>Lawful Good</option>
+          <option>Lawful Neutral</option>
+          <option>Lawful Evil</option>
+          <optgroup label="Neutral">
+          <option>Neutral Good</option>
+          <option>True Neutral</option>
+          <option>Neutral Evil</option>
+          <optgroup label="Chaotic">
+          <option>Chaotic Good</option>
+          <option>Chaotic Neutral</option>
+          <option>Chaotic Evil</option>
+        </select>
+      </div>
+      <div>
+        <label>Experience Points</label>
+        <br>
+        <input type="number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Attributes</legend>
+      <div>
+        <span>
+          <label>Strength</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Strength Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+      <div>
+        <span>
+          <label>Dexterity</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Dexterity Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+      <div>
+        <span>
+          <label>Constitution</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Constitution Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+      <div>
+        <span>
+          <label>Intelligence</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Intelligence Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+      <div>
+        <span>
+          <label>Wisdom</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Wisdom Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+      <div>
+        <span>
+          <label>Charisma</label>
+          <br>
+          <input type="number">
+        </span>
+        <span>
+          <label>Charisma Bonus</label>
+          <br>
+          <input type="number">
+        </span>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Inspiration</label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label>Proficiency Bonus</label>
+        <br>
+        <input type="number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Saving Throws</legend>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Strength</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Dexterity</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Constitution</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Intelligence</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Wisdom</label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Charisma</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Skills</legend>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Acrobatics <abbr title="Dexterity">(Dex)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Animal Handling <abbr title="Wisdom">(Wis)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Arcana <abbr title="Intelligence">(Int)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Athletics <abbr title="Strength">(Str)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Deception <abbr title="Charisma">(Cha)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>History <abbr title="Intelligence">(Int)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Insight <abbr title="Wisdom">(Wis)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Intimidation <abbr title="Charisma">(Cha)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Investigation <abbr title="Intelligence">(Int)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Medicine <abbr title="Wisdom">(Wis)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Nature <abbr title="Intelligence">(Int)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Perception <abbr title="Wisdom">(Wis)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Performance <abbr title="Charisma">(Cha)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Persuasion <abbr title="Charisma">(Cha)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Religion <abbr title="Intelligence">(Int)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Sleight of Hand <abbr title="Dexterity">(Dex)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Stealth <abbr title="Dexterity">(Dex)</abbr></label>
+      </div>
+      <div>
+        <input type="checkbox">
+        <input type="number">
+        <label>Survival <abbr title="Wisdom">(Wis)</abbr></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Passive Wisdom (Perception)</label>
+        <br>
+        <input type+"number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Other proficiencies & languages</label>
+        <br>
+        <textarea></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Armor Class</label>
+        <br>
+        <input type="Number">
+      </div>
+      <div>
+        <label>Initiative</label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label>Speed</label>
+        <br>
+        <input type="number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Hitpoints</label>
+        <br>
+        <input type="number"> / <input type="number">, <abbr title="Temporary">Temp.</abbr> <input type="number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Hit Dice</label>
+        <br>
+        <span>
+          <input type="number">
+          <select>
+            <option>d4</option>
+            <option>d6</option>
+            <option>d8</option>
+            <option>d10</option>
+            <option>d12</option>
+            <option>d20</option>
+          </select>
+        </span>
+        /
+        <span>
+          <input type="number">
+          <select>
+            <option>d4</option>
+            <option>d6</option>
+            <option>d8</option>
+            <option>d10</option>
+            <option>d12</option>
+            <option>d20</option>
+          </select>
+        </span>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Death Saves</legend>
+      <div>
+        <label>Successes</label>
+        <input type="range" min="0" max="3" step="1">
+      </div>
+      <div>
+        <label>Failures</label>
+        <input type="range" min="0" max="3" step="1">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Attacks & Spellcasting</legend>
+      <div>
+        <div>
+          <span>
+            <label>Name</label>
+            <br>
+            <input type="text">
+          </span>
+          <span>
+            <label>Attack Bonus</label>
+            <br>
+            <input type="number">
+          </span>
+          <span>
+            <label>Damage/Type</label>
+            <br>
+            <input type="text">
+          </span>
+        </div>
+        <div>
+          <span>
+            <label>Name</label>
+            <br>
+            <input type="text">
+          </span>
+          <span>
+            <label>Attack Bonus</label>
+            <br>
+            <input type="number">
+          </span>
+          <span>
+            <label>Damage/Type</label>
+            <br>
+            <input type="text">
+          </span>
+        </div>
+        <div>
+          <span>
+            <label>Name</label>
+            <input type="text">
+          </span>
+          <span>
+            <label>Attack Bonus</label>
+            <br>
+            <input type="number">
+          </span>
+          <span>
+            <label>Damage/Type</label>
+            <br>
+            <input type="text">
+          </span>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Currency</legend>
+      <div>
+        <label><abbr title="Copper Pieces">CP</abbr></label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label><abbr title="Silver Pieces">SP</abbr></label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label><abbr title="Electrum Pieces">EP</abbr></label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label><abbr title="Gold Pieces">GP</abbr></label>
+        <br>
+        <input type="number">
+      </div>
+      <div>
+        <label><abbr title="Platinum Pieces">PP</abbr></label>
+        <br>
+        <input type="number">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Equipment</label>
+        <br>
+        <textarea></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Personality Traits</label>
+        <br>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Ideals</label>
+        <br>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Bonds</label>
+        <br>
+        <textarea></textarea>
+      </div>
+      <div>
+        <label>Flaws</label>
+        <br>
+        <textarea></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Features & Traits</label>
+        <br>
+        <textarea></textarea>
+      </div>
+    </fieldset>
+  </form>
+
+</body>
+</html>
